@@ -1,0 +1,20 @@
+{
+  "name": "streama-i18n",
+  "homepage": "https://github.com/dularion/streama-i18n",
+  "authors": [
+    "dularion <antonia.hulha@systaro.de>"
+  ],
+  "description": "Angular Translation Project for Streama Web & Mobile Apps",
+  "main": "dist/streama.translations.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-translate": "^2.14.0"
+  }
+}
