@@ -1,8 +1,7 @@
-//= wrapped
 /**
  * Created by antonia on 14/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('pt', {
 		LOGIN: {
 			TITLE: 'Faça Login',
@@ -53,12 +52,12 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		CHANGE_PASSWORD: 'Mudar Senha',
 		LANGUAGE_en: 'Inglês',
 		LANGUAGE_de: 'Alemão',
-    	LANGUAGE_fr: 'Francês',
+		LANGUAGE_fr: 'Francês',
 		LANGUAGE_es: 'Espanhol',
 		LANGUAGE_kr: 'Coreano',
 		LANGUAGE_nl: 'Holandês',
 		LANGUAGE_pt: 'Português',
-		
+
 		PROFIlE: {
 			USERNAME: 'Usuário',
 			FULL_NAME: 'Nome completo',
@@ -142,4 +141,4 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			}
 		}
 	});
-});
+}]);

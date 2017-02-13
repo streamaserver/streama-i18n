@@ -2,7 +2,7 @@
  * Created by antonia on 14/05/16.
  * Translated by Steyn Guelen on 15/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('nl', {
 		LOGIN: {
 			TITLE: 'Graag inloggen',
@@ -58,7 +58,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: 'Koreaans',
 		LANGUAGE_nl: 'Nederlands',
 		LANGUAGE_pt: 'Portugees',
-		
+
 		PROFIlE: {
 			USERNAME: 'Gebruikersnaam',
 			FULL_NAME: 'Volledige naam',
@@ -84,4 +84,4 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			OLDEST_AIRED: 'Als eerste uitgezonden',
 		}
 	});
-});
+}]);

@@ -2,7 +2,7 @@
  * Created by antonia on 14/05/16.
  * Translation by @imkimchi on 16/05/16
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('kr', {
 		LOGIN: {
 			TITLE: '로그인이 필요합니다.',
@@ -58,7 +58,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: '한국어',
 		LANGUAGE_nl: '네덜란드',
 		LANGUAGE_pt: '포르투갈어',
-		
+
 		PROFIlE: {
 			USERNAME: '아이디',
 			FULL_NAME: '이름',
@@ -137,4 +137,4 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			},
 		}
 	});
-});
+}]);

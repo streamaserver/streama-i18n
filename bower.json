@@ -5,7 +5,7 @@
     "dularion <antonia.hulha@systaro.de>"
   ],
   "description": "Angular Translation Project for Streama Web & Mobile Apps",
-  "main": "dist/streama.translations.min.js",
+  "main": "dist/streama-i18n.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular-translate": "^2.14.0"
+    "angular-translate": "^2.14.0",
+    "streama-i18n": "*"
   }
 }

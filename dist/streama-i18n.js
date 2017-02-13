@@ -1,8 +1,18 @@
+angular.module('streama.translations', ['pascalprecht.translate'])
+
+	.config(['$translateProvider', function ($translateProvider) {
+		$translateProvider.determinePreferredLanguage();
+		$translateProvider.fallbackLanguage('en');
+	}])
+
+	.run(['$rootScope', function ($rootScope) {
+		$rootScope.availableLanguages = ['en', 'fr', 'es', 'de', 'kr', 'nl', 'pt'];
+	}]);
 /**
  * Created by antonia on 14/05/16.
  * Translation by @ManuGithubSteam and @bastilimbach on 14/01/17
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('de', {
 		LOGIN: {
 			TITLE: 'Bitte einloggen',
@@ -58,7 +68,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: 'Koreanisch',
 		LANGUAGE_nl: 'Niederländisch',
 		LANGUAGE_pt: 'Portugiesisch',
-		
+
 		PROFIlE: {
 			USERNAME: 'Benutzername',
 			FULL_NAME: 'Vollständiger Name',
@@ -138,11 +148,11 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			}
 		}
 	});
-});
+}]);
 /**
  * Created by antonia on 14/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('en', {
 		LOGIN: {
 			TITLE: 'Please Login',
@@ -194,12 +204,12 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		CHANGE_PASSWORD: 'Change Password',
 		LANGUAGE_en: 'English',
 		LANGUAGE_de: 'German',
-    	LANGUAGE_fr: 'French',
+		LANGUAGE_fr: 'French',
 		LANGUAGE_es: 'Spanish',
 		LANGUAGE_kr: 'Korean',
 		LANGUAGE_nl: 'Dutch',
 		LANGUAGE_pt: 'Portuguese',
-		
+
 		PROFIlE: {
 			USERNAME: 'Username',
 			FULL_NAME: 'Full Name',
@@ -283,11 +293,11 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			}
 		}
 	});
-});
+}]);
 /**
  * Created by antonia on 14/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('es', {
 		LOGIN: {
 			TITLE: 'Introduzca su usuario',
@@ -343,7 +353,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: 'Coreano',
 		LANGUAGE_nl: 'Holandés',
 		LANGUAGE_pt: 'Portugués',
-		
+
 		PROFIlE: {
 			USERNAME: 'Nombre de usuario',
 			FULL_NAME: 'Nombre completo',
@@ -424,8 +434,8 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			},
 		}
 	});
-});
-angular.module('streama.translations').config(function ($translateProvider) {
+}]);
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('fr', {
 		LOGIN: {
 			TITLE: 'Veuillez vous connecter',
@@ -481,7 +491,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: 'Coréen',
 		LANGUAGE_nl: 'Néerlandais',
 		LANGUAGE_pt: 'Portugais',
-		
+
 		PROFIlE: {
 			USERNAME: 'Nom d\'utilisateur',
 			FULL_NAME: 'Nom complet',
@@ -562,12 +572,12 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			}
 		}
 	});
-});
+}]);
 /**
  * Created by antonia on 14/05/16.
  * Translation by @imkimchi on 16/05/16
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('kr', {
 		LOGIN: {
 			TITLE: '로그인이 필요합니다.',
@@ -623,7 +633,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: '한국어',
 		LANGUAGE_nl: '네덜란드',
 		LANGUAGE_pt: '포르투갈어',
-		
+
 		PROFIlE: {
 			USERNAME: '아이디',
 			FULL_NAME: '이름',
@@ -702,12 +712,12 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			},
 		}
 	});
-});
+}]);
 /**
  * Created by antonia on 14/05/16.
  * Translated by Steyn Guelen on 15/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('nl', {
 		LOGIN: {
 			TITLE: 'Graag inloggen',
@@ -763,7 +773,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		LANGUAGE_kr: 'Koreaans',
 		LANGUAGE_nl: 'Nederlands',
 		LANGUAGE_pt: 'Portugees',
-		
+
 		PROFIlE: {
 			USERNAME: 'Gebruikersnaam',
 			FULL_NAME: 'Volledige naam',
@@ -789,11 +799,11 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			OLDEST_AIRED: 'Als eerste uitgezonden',
 		}
 	});
-});
+}]);
 /**
  * Created by antonia on 14/05/16.
  */
-angular.module('streama.translations').config(function ($translateProvider) {
+angular.module('streama.translations').config(['$translateProvider', function ($translateProvider) {
 	$translateProvider.translations('pt', {
 		LOGIN: {
 			TITLE: 'Faça Login',
@@ -844,12 +854,12 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		CHANGE_PASSWORD: 'Mudar Senha',
 		LANGUAGE_en: 'Inglês',
 		LANGUAGE_de: 'Alemão',
-    	LANGUAGE_fr: 'Francês',
+		LANGUAGE_fr: 'Francês',
 		LANGUAGE_es: 'Espanhol',
 		LANGUAGE_kr: 'Coreano',
 		LANGUAGE_nl: 'Holandês',
 		LANGUAGE_pt: 'Português',
-		
+
 		PROFIlE: {
 			USERNAME: 'Usuário',
 			FULL_NAME: 'Nome completo',
@@ -933,4 +943,4 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			}
 		}
 	});
-});
+}]);
