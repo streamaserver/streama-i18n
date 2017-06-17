@@ -35,7 +35,8 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			OVERVIEW: 'Überblick',
 			GENRE: 'Genre',
 			TRAILER: 'Vorschau',
-			SEASON: 'Staffel'
+			SEASON: 'Staffel',
+			SUBTITLES: 'Untertitel'
 		},
 
 		MESSAGES: {

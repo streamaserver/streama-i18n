@@ -36,6 +36,7 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			GENRE: '장르',
 			TRAILER: '트레일러',
 			SEASON: '시즌',
+			SUBTITLES: '자막'
 		},
 
 		MESSAGES: {
