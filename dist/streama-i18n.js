@@ -45,7 +45,8 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			OVERVIEW: 'Überblick',
 			GENRE: 'Genre',
 			TRAILER: 'Vorschau',
-			SEASON: 'Staffel'
+			SEASON: 'Staffel',
+			SUBTITLES: 'Untertitel'
 		},
 
 		MESSAGES: {
@@ -185,7 +186,8 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			OVERVIEW: 'Overview',
 			GENRE: 'Genre',
 			TRAILER: 'Trailer',
-			SEASON: 'Season'
+			SEASON: 'Season',
+			SUBTITLES: 'Subtitles'
 		},
 
 		MESSAGES: {
@@ -331,6 +333,7 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			GENRE: 'Género',
 			TRAILER: 'Trailer',
 			SEASON: 'Temporada',
+			SUBTITLES: 'Subtítulos'
 		},
 
 		MESSAGES: {
@@ -468,7 +471,8 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			OVERVIEW: 'Résumé',
 			GENRE: 'Genre',
 			TRAILER: 'Bande annonce',
-			SEASON: 'Saison'
+			SEASON: 'Saison',
+			SUBTITLES: 'Sous-titres'
 		},
 
 		MESSAGES: {
@@ -611,6 +615,7 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			GENRE: '장르',
 			TRAILER: '트레일러',
 			SEASON: '시즌',
+			SUBTITLES: '자막'
 		},
 
 		MESSAGES: {
@@ -751,6 +756,7 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			GENRE: 'Genre',
 			TRAILER: 'Trailer',
 			SEASON: 'Seizoen',
+			SUBTITLES: 'Ondertitels'
 		},
 
 		MESSAGES: {
@@ -836,7 +842,8 @@ angular.module('streama.translations').config(['$translateProvider', function ($
 			OVERVIEW: 'Visão Geral',
 			GENRE: 'Gênero',
 			TRAILER: 'Trailer',
-			SEASON: 'Temporada'
+			SEASON: 'Temporada',
+			SUBTITLES: 'Legendas'
 		},
 
 		MESSAGES: {
